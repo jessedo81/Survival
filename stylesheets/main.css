@@ -334,7 +334,19 @@ body {
 
 
 /* TOP NAV */
+#header_nav ul.navbar-nav { 
+  float: none; 
+  text-align: center;
+}
 
+.navbar-nav > li { 
+  float: none !important;
+  display: inline !important;
+}
+
+.navbar-nav > li > a { 
+  display: inline;
+}
 
 .navbar-brand{
 	font-size: 26px;
@@ -343,9 +355,13 @@ body {
 }
 
 .navbar-brand-logo{
-	float:left;
 	margin:0 !important;
+	padding: 10px 0 0 0 !important;
 }
+
+.navbar-brand-logo img { max-width: 100%; }
+
+.navbar-brand-logo:hover { background-color: transparent !important; }
 
 .theme-dropdown .dropdown-menu {
   display: block;
@@ -361,15 +377,15 @@ body {
 /* JESSE"S MEDIA FIXES */
 
 @media (max-width: 767px) {
-
 	.navbar-brand{
 		font-size: 18px !important;
 		padding-left: 10px !important;
 		padding-right: 10px !important;
 	}
 	
-	.navbar-brand-logo img{
-		padding-left: 10px;
-		padding-top: 6px;
+	.navbar-brand-logo img {
+		/*padding-left: 10px;
+		padding-top: 6px;*/
+		width: 200px;
 	}
 }
