@@ -298,20 +298,23 @@ textarea {
 
 http://getbootstrap.com/customize/?id=7163113 THE BASIC BOOTSTRAP FORM BUILDER
 
-Background Color 	#faf8f6
+Background Color 	#F9F9F9
 
-Mid Green 				#5b5d33
-Dark Green 				#394311
+Mid Green 				#36A3B8
+Mid Blue 					#394311
 
-Light Brown				#a98c5f
-Mid Brown					#755931
-Dark Brown 				#3b2410
+Light Brown				#DDD8D5
+Mid Brown					#553A2E
+Dark Brown 				#3D3533
 
-Brick							#7a2d0b
+Brick							#D43633
 
 Dark Grey					#3a352e
 
-Danger 						#761100
+Dark Tope					#6D7475
+Mid Tope					#97978C
+
+Gold Tope					#F3E2BD
 
 */
 
@@ -323,7 +326,7 @@ Danger 						#761100
 body {
   padding-top: 70px;
   padding-bottom: 30px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', 'Trebuchet MS', 'Open Sans', sans-serif;
   /* font-family: 'Arvo', serif; */
   /* font-family: 'Montserrat', sans-serif; */
   /* font-family: 'PT Sans', sans-serif; */
@@ -331,6 +334,8 @@ body {
 
 
 /* TOP NAV */
+
+
 .navbar-brand{
 	font-size: 26px;
 	padding-left: 30px;
